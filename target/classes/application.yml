@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/rw?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true #如果mysql workbench没先运行就去启动项目时报错，加上allowPublicKeyRetrieval=ture
     username: root
-    password: 
+    password:
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
