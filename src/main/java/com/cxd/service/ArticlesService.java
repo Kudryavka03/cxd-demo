@@ -17,7 +17,7 @@ public class ArticlesService {
     }
 
     public List<Articles> getAllArticles() {
-        //调用对象articlesRepository的返回所有文章方法findAll()
+    	//调用对象articlesRepository的返回所有文章方法findAll()
         return (List<Articles>) articlesRepository.findAll();
     }
 }
